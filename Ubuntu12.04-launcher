@@ -1,0 +1,3 @@
+#!/bin/bash
+
+APPMENU_DISPLAY_BOTH=1 ./etoken-qt
