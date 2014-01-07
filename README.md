@@ -2,8 +2,11 @@ eToken integration/staging tree
 ================================
 
 Copyright (c) 2009-2013 Bitcoin Developers
+
 Copyright (c) 2011-2014 Litecoin Developers
+
 Copyright (c) 2014      eToken Developers
+
 
 What is eToken?
 ---------------
@@ -18,15 +21,18 @@ eToken is a new version of Litecoin using scrypt as a proof-of-work algorithm.
  - Proof of Work algorithm: scrypt
  - Post-genesis centralisation: The post-genesis block, a high reward block, was mined to make the eToken Bank.
 
-Watch our actual 2014 objectives: 
+Watch our actual 2014 objectives: http://www.bitlink-central.com/etok/graph01.png
 
 Mining rewards
 --------------
 
-Default reward is 1 eTOK / block.
-Each 1000th block is a  x200 reward bonus (1000, 2000, 3000, 4000, ...)
-Each 10000th block is a  x2500 reward bonus (10000, 20000, 30000, 40000, ...)
-Blocks before 20k are x2.
+ - Common reward: 1 eTOK / block
+ - Release bonus: A multiplier of 2 apply until block 20000.
+ - Inferior Bonus: Every 1000 blocks (1000, 2000, 3000, ...), the 1000th reward with a multiplier of 200.
+ - Superior Bonus: Every 10000 blocks (10000, 20000, 30000, ...), the 10000th reward with a multiplier of 2500.
+ - Cuts: Rewards halves every 262800 blocks (~365 days).
+
+Watch the mining previsions: http://www.bitlink-central.com/etok/graph02.png
 
 License
 -------
